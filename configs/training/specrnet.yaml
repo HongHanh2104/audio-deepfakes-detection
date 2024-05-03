@@ -1,0 +1,14 @@
+data:
+  seed: 42
+
+checkpoint:
+  path: "/home/tuantran/hanhnlh/projects/ccs/deepfakes_detectors/audio-deepfake-adversarial-attacks/trained_models/aad__specrnet__1699891862.0933995/ckpt.pth"
+
+model:
+  name: "specrnet"
+  parameters:
+    input_channels: 1
+    frontend_algorithm: ["lfcc"]
+  optimizer:
+    lr: 0.0001
+    weight_decay: 0.0001

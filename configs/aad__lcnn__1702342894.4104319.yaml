@@ -1,0 +1,12 @@
+checkpoint:
+  path: /home/hanhnlh/projects/ccs/deepfakes_detectors/audio-deepfake-adversarial-attacks/trained_models/asv21__lcnn__1702342894.4104319/ckpt.pth
+data:
+  seed: 2104
+model:
+  name: lcnn
+  optimizer:
+    lr: 0.0001
+  parameters:
+    frontend_algorithm:
+    - lfcc
+    input_channels: 1

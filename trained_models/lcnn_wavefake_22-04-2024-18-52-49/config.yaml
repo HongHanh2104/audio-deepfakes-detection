@@ -1,0 +1,12 @@
+checkpoint:
+  path: ./trained_models/lcnn_wavefake_22-04-2024-18-52-49/ckpt.pth
+data:
+  seed: 42
+model:
+  name: lcnn
+  optimizer:
+    lr: 0.0001
+  parameters:
+    frontend_algorithm:
+    - lfcc
+    input_channels: 1

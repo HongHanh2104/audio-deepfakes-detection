@@ -1,0 +1,13 @@
+data:
+  seed: 2104
+
+checkpoint:
+  path: "/home/hanhnlh/projects/ccs/deepfakes_detectors/audio-deepfake-adversarial-attacks/trained_models/imbalanced__splitted__lcnn__1702170041.6811752/ckpt.pth"
+
+model:
+  name: "lcnn"
+  parameters:
+    frontend_algorithm: ["lfcc"]
+    input_channels: 1
+  optimizer:
+    lr: 0.0001
